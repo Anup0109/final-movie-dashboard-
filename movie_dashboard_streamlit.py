@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Load the cleaned dataset
-df = pd.read_csv(r"C:\Users\anupt\OneDrive\Desktop\MovieDashboard\cleaned_Dashboard_Dataset.csv")
+df = pd.read_csv("cleaned_Dashboard_Dataset.csv")
+
 
 # Sidebar Filters
 st.sidebar.header("Filters")
